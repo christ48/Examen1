@@ -15,9 +15,9 @@ namespace DAl.Implementations
 
         private readonly ExamenContext _context;
 
-        public UnidadDeTrabajo(IDistritoDal empleadoDAl, ExamenContext context)
+        public UnidadDeTrabajo(IDistritoDal distritoDal, ExamenContext context)
         {
-            _DistritoDal = empleadoDAl;
+            _DistritoDal = distritoDal;
             _context = context;
      }
         public bool Complete()
